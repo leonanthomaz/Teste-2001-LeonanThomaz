@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 60px;
+}
+
+.home-btn-logo{
+    width: auto;
+    height: auto;
+}
+
+.home-btn-logo img{
+    width: 100%;
+}
+.home-home-menu-icon{
+    color: white;
+}

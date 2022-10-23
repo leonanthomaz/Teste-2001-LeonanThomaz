@@ -1,0 +1,10 @@
+.contato-social_networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.contato-social_networks_icons{
+    margin: 15px;
+}

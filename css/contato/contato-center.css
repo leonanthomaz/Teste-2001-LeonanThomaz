@@ -1,0 +1,51 @@
+
+.contato-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-subheader{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.contato-subheader > h2{
+    margin-left: 20px;
+    color: #FA9401;
+}
+
+.contato-info{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E8E8E8;
+    padding: 20px;
+}
+
+.contato-info-icon{
+    /* border: 2px solid red; */
+    flex: 1;
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contato-info-icon i{
+    font-size: 25px;
+    color: #FA9401;
+}
+
+.contato-info-description{
+    flex: 3.5;
+    display: flex;
+    align-items: center;
+}
+
+.contato-info p{
+    margin-left: 20px;
+}
+

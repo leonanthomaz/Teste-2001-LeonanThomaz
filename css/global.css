@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.home{
+    background: #424242;
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.contato{
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.contato-logo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container{
+    margin-top: 50px;
+}
+
+.home-main{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.home-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+
+
+@media(max-height: 780px) and (min-width: 1024px){
+    /*HOME*/
+    .home-menu-center-container{
+        flex-direction: column;
+    }
+}
+
+
+@media(max-height: 600px) and (min-width: 640px){
+
+    /*HOME*/
+    .home{
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    .home-menu-center-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 500px;
+        padding: 5px;
+    }
+
+    .home-menu-center-box, .home-menu-center-box-desactive{
+        width: 200px;
+    }
+
+    .home-menu-center-btn{
+        font-size: 18px;
+    }
+    
+    .home-icons{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-height: 400px) and (min-width: 375px) {
+    /*HOME*/
+    .home-header-main{
+        margin: 0px;
+    }
+}
+
+@media(max-width: 375px){
+    
+    /*HOME*/
+    .home{
+        background: #FFB64E;
+        margin: 30px;
+    }
+    
+    .home-menu-center-box-desactive{
+        background: #444242;
+    }   
+    
+     /*CONTATO*/
+     .contato-logo-header{
+        width: 140px;
+    }
+    
+    .contato-logo-header img{
+        width: 100%;
+    }
+    
+    .contato-icon-header-voltar, .header-botoes-cart > i, .header-botoes-cart-menu > i{
+        font-size: 20px;
+    }
+
+    .contato-header-botoes-cart > .header-botoes-cart-length{
+        width: 18px;
+        height: 18px;
+        margin-left: 18px;
+        top: 25px;
+    }    
+
+    .contato-info, .contato-footer-contato > h3{
+        font-size: 80%;
+    }
+}
+

@@ -1,0 +1,14 @@
+
+.contato-footer-contato{
+    background: #FA9401;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contato-footer-contato > h3{
+    color: white;
+}

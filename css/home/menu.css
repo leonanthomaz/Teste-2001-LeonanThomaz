@@ -1,0 +1,16 @@
+.home-menu-up{
+    list-style: none;
+}
+
+.home-menu-item-up{
+    text-decoration: none;
+}
+
+.home-menu-icon-up{
+    color: white;
+    width: 24px;
+}
+
+.home-menu-icon-up i{
+    font-size: 24px;
+}
